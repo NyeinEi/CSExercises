@@ -10,7 +10,10 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            
+            Console.WriteLine("Please Enter the 'x' values!");
+            int x = Convert.ToInt32(Console.ReadLine());
+            int y = 2 * x * x - 4 * x + 3;
+            //Console.WriteLine("");
         }
     }
 }
